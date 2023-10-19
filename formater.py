@@ -88,7 +88,16 @@ notoEmoji = 'dataset/noto-emoji-vector-512-svg.csv'
 
 
 # svgrepo.csv
-svgRepo = 'dataset/svgrepo.csv'
+svgRepo = 'dataset/svgrepo-raw.csv'
+
+# Drop web-scraper-order,web-scraper-start-url,collection_link-href,sub_collection_pagination,icon_show-src columns
+# df = pd.read_csv(svgRepo)
+# df = df.drop('web-scraper-order', axis=1)
+# df = df.drop('web-scraper-start-url', axis=1)
+# df = df.drop('collection_pagination', axis=1)
+# df = df.drop('collection_link-href', axis=1)
+# df = df.drop('sub_collection_pagination', axis=1)
+# df.to_csv(svgRepo, index=False)
 
 # !!!! NOT OPTIMIZED
 # Get each icon_show-src and download it to downloadsvgs folder using wget
