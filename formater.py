@@ -107,3 +107,7 @@ svgRepo = 'dataset/svgrepo-raw.csv'
 #     filename = url.split('/')[-1]
 #     print('Downloading', filename)
 #     subprocess.run(['wget', url, '-P', 'downloadsvgs'])
+
+# Convert CSV to excel format
+# df = pd.read_csv('dataset/svgrepo.csv')
+# df.to_excel('dataset/svgrepo.xlsx', index=False)

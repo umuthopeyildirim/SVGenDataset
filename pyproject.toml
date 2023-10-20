@@ -16,6 +16,7 @@ torchvision = "^0.16.0"
 torchaudio = "^2.1.0"
 cairosvg = "^2.7.1"
 tqdm = "^4.66.1"
+openpyxl = "^3.1.2"
 
 
 [build-system]
