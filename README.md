@@ -1,8 +1,9 @@
 # SVG Dataset for SVGen
 
-## TODO
+This repo contains code to generate a dataset SVGenDataset which you can find on [HuggingFace 🤗](https://huggingface.co/datasets/umuthopeyildirim/SVGen-Dataset).
 
-- [x] Add description to noto-emoji
-- [ ] Combine all svg repo into one
-- [ ] Combine all data into one
-- [ ] Split some for testing
+Some Colab Links:
+
+- [SVGen - BILP Large](https://colab.research.google.com/drive/1wA7hptl3E3jpt6QLueSOT0fWqNgLNNBX?usp=sharing)
+- [SVGen - GIT Large](https://colab.research.google.com/drive/1sRjiixBhCsoyTtVFKTr37HnrvC2ctfIj?usp=sharing)
+- [SVGen - IntructBILP](https://colab.research.google.com/drive/1hxgBqfv38ud4Cg38xpUPmGRbV1W-U59D?usp=sharing)

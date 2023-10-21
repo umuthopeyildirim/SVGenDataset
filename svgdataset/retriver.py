@@ -34,7 +34,7 @@ def process_df(small_df):
 
 
 # Read the main DataFrame
-df = pd.read_csv('dataset/svgrepo-raw.csv')
+df = pd.read_csv('../dataset/svgrepo-raw.csv')
 
 # Automatically get the number of cores
 num_cores = os.cpu_count()
@@ -51,4 +51,4 @@ with ThreadPoolExecutor(max_workers=num_cores) as executor:
 final_df = pd.concat(results, ignore_index=True)
 
 # Save the updated DataFrame
-final_df.to_csv('dataset/svgrepo.csv', index=False)
+final_df.to_csv('../dataset/svgrepo.csv', index=False)

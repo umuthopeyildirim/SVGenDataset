@@ -34,8 +34,8 @@ import subprocess
 
 
 #  noto-emoji-vector-512-svg.csv
-notoEmojiRaw = 'dataset/noto-emoji-vector-512-svg.parquet'
-notoEmoji = 'dataset/noto-emoji-vector-512-svg.csv'
+notoEmojiRaw = '../dataset/noto-emoji-vector-512-svg.parquet'
+notoEmoji = '../dataset/noto-emoji-vector-512-svg.csv'
 
 # Convert to CSV
 # df = pd.read_parquet(notoEmojiRaw)
@@ -88,7 +88,7 @@ notoEmoji = 'dataset/noto-emoji-vector-512-svg.csv'
 
 
 # svgrepo.csv
-svgRepo = 'dataset/svgrepo-raw.csv'
+svgRepo = '../dataset/svgrepo-raw.csv'
 
 # Drop web-scraper-order,web-scraper-start-url,collection_link-href,sub_collection_pagination,icon_show-src columns
 # df = pd.read_csv(svgRepo)
