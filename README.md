@@ -1,6 +1,6 @@
 # SVG Dataset for SVGen
 
-This repo contains code to generate a dataset SVGenDataset which you can find on [HuggingFace 🤗](https://huggingface.co/datasets/umuthopeyildirim/SVGen-Dataset).
+This repo contains code to generate a dataset SVGenDataset which you can find on [HuggingFace 🤗](https://huggingface.co/collections/umuthopeyildirim/svg-collection-652f4e310af36fdc87455249).
 
 Some Colab Links:
 
